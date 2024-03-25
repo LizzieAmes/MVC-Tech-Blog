@@ -1,0 +1,7 @@
+<h2>Dashboard</h2>
+{{#each posts as |post|}}
+    {{> post post}}
+{{else}}
+    <p>You have not created any posts yet.</p>
+{{/each}}
+<a href="/posts/new">Create New Post</a>

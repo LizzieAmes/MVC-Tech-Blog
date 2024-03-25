@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+main {
+    padding: 20px;
+}
+
+header nav {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+header nav a {
+    margin: 0 10px; 
+    text-decoration: none;
+    color: #FFF; 
+}
+
+header h1 {
+    text-align: center;
+    color: #FFF; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.post-title {
+    color: #333;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post-date {
+    color: #666;
+    font-size: 0.85em;
+}
